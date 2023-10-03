@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "bezelnotification",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sidevesh/BezelNotification.git",
+      "state" : {
+        "branch" : "hudwindow-material",
+        "revision" : "e3847e74f906396f8aadf4155e5518a60a1b9e82"
+      }
+    },
+    {
+      "identity" : "swift-cross-kit-types",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RougeWare/Swift-Cross-Kit-Types.git",
+      "state" : {
+        "revision" : "d64faa8d5e988352dff45e03a13da4f90c3a70e5",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "swift-function-tools",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/RougeWare/Swift-Function-Tools.git",
+      "state" : {
+        "revision" : "0bd76ca2c00120acf7ff840b5dcc1e700870ae22",
+        "version" : "1.2.3"
+      }
+    }
+  ],
+  "version" : 2
+}
