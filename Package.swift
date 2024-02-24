@@ -10,7 +10,7 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/sidevesh/BezelNotification.git",
+            url: "https://github.com/BlueHuskyStudios/BezelNotification.git",
             branch: "hudwindow-material"
         )
     ],

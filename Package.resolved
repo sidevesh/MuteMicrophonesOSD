@@ -3,7 +3,7 @@
     {
       "identity" : "bezelnotification",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/sidevesh/BezelNotification.git",
+      "location" : "https://github.com/BlueHuskyStudios/BezelNotification.git",
       "state" : {
         "branch" : "hudwindow-material",
         "revision" : "e3847e74f906396f8aadf4155e5518a60a1b9e82"
