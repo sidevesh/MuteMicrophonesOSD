@@ -3,10 +3,10 @@
     {
       "identity" : "bezelnotification",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/BlueHuskyStudios/BezelNotification.git",
+      "location" : "https://github.com/sidevesh/BezelNotification.git",
       "state" : {
-        "branch" : "hudwindow-material",
-        "revision" : "e3847e74f906396f8aadf4155e5518a60a1b9e82"
+        "branch" : "master",
+        "revision" : "3b4c960ba888c5bd6ceda6e26616248c81f255f4"
       }
     },
     {
@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/RougeWare/Swift-Function-Tools.git",
       "state" : {
-        "revision" : "0bd76ca2c00120acf7ff840b5dcc1e700870ae22",
-        "version" : "1.2.3"
+        "revision" : "a854f4ed89b7e404019b5a09d24e067acc15432d",
+        "version" : "1.2.4"
       }
     }
   ],

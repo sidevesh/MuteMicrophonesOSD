@@ -27,14 +27,19 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             path = Bundle.module.path(forResource: "mic.fill", ofType: "png")
         }
         let bezelIcon = NSImage(contentsOfFile: path!)
+        
+        let timeToLive = 1.0
+        let fadeOutDuration = 1.0
+        
         BezelNotification.show(
             messageText: "",
             icon: bezelIcon,
-            timeToLive: .exactly(seconds: 2),
+            timeToLive: .exactly(seconds: timeToLive),
             fadeInAnimationDuration: 0,
-            fadeOutAnimationDuration: 0
+            fadeOutAnimationDuration: fadeOutDuration
         )
-        after(2) {
+        
+        after(timeToLive + fadeOutDuration) {
             app.terminate(self)
         }
     }
